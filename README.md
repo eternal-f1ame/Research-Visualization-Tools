@@ -1,4 +1,4 @@
-# 🧠 Research Viz Kit
+# 🧠 Research Visualization Tools
 
 A modular toolkit for generating high-quality, publication-ready visualizations — tailored for deep learning, computer vision, and robotics research.
 
