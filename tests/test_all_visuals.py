@@ -2,7 +2,6 @@
 Test script to verify all visualization modules load correctly.
 """
 import importlib
-import os
 
 MODULE_PATHS = [
     "bar_charts.grouped_bar",
@@ -32,7 +31,7 @@ def test_module_imports():
     success = True
     for module in MODULE_PATHS:
         try:
-            importlib.import_module(f"research_viz_kit.{module}")
+            importlib.import_module(f"{module}")
             print(f"✅ {module} imported successfully.")
         except Exception as e:
             print(f"❌ Failed to import {module}: {e}")

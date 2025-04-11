@@ -65,5 +65,3 @@ pip install graphviz wordcloud
 ```bash
 python tests/test_all_visuals.py
 ```
-
----
