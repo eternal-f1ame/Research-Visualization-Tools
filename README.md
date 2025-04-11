@@ -67,5 +67,3 @@ python tests/test_all_visuals.py
 ```
 
 ---
-
-Crafted for precision. Built for publication.
